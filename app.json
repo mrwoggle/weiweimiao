@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0099FF",
+    "navigationBarTitleText": "微微秒英语",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "backgroundColor": "#0099FF",
+    "color":"white",
+    "borderStyle": "black",
+    "selectedColor": "#FF9900",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "课程"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "微微秒英语"
+      }
+    ]
+  }
+}
